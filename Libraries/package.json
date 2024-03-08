@@ -1,0 +1,29 @@
+{
+  "name": "advanced-topics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.2.1",
+    "ts-loader": "^9.5.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202"
+  }
+}
